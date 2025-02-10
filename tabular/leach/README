@@ -1,0 +1,5 @@
+leach: Learning to Teach
+
+Install with in in development mode:
+
+    pip install -e .

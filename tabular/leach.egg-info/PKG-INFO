@@ -1,0 +1,9 @@
+Metadata-Version: 2.2
+Name: leach
+Version: 1.0
+Summary: Learning to Teach
+Author: Kianté Brantely, Tim Vieira, and Hal Daumé III
+Requires-Dist: arsenal
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: summary
