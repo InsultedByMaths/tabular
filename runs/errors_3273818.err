@@ -1,0 +1,16 @@
+
+The following have been reloaded with a version change:
+  1) cuda/12.4.1-fasrc01 => cuda/12.2.0-fasrc01
+
+Traceback (most recent call last):
+  File "/n/home03/npeng/tabular/train.py", line 151, in <module>
+    main()
+  File "/n/home03/npeng/tabular/train.py", line 119, in main
+    for name, dd in df.groupby('solver'):
+  File "/n/netscratch/kdbrantley_lab/Lab/npeng/.conda/envs/tabular/lib/python3.10/site-packages/pandas/core/frame.py", line 9183, in groupby
+    return DataFrameGroupBy(
+  File "/n/netscratch/kdbrantley_lab/Lab/npeng/.conda/envs/tabular/lib/python3.10/site-packages/pandas/core/groupby/groupby.py", line 1329, in __init__
+    grouper, exclusions, obj = get_grouper(
+  File "/n/netscratch/kdbrantley_lab/Lab/npeng/.conda/envs/tabular/lib/python3.10/site-packages/pandas/core/groupby/grouper.py", line 1043, in get_grouper
+    raise KeyError(gpr)
+KeyError: 'solver'

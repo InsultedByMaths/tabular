@@ -1,0 +1,8 @@
+
+The following have been reloaded with a version change:
+  1) cuda/12.4.1-fasrc01 => cuda/12.2.0-fasrc01
+
+usage: train.py [-h] [--env {ToyMDP,GarnetMDP}] [--episodes EPISODES]
+                [--solvers {policy_gradient,natural_policy_gradient,policy_iteration,reinforce,qlearning}]
+                [--learning_rate LEARNING_RATE] [--gamma GAMMA]
+train.py: error: argument --solvers: invalid choice: '[policy_gradient]' (choose from 'policy_gradient', 'natural_policy_gradient', 'policy_iteration', 'reinforce', 'qlearning')
